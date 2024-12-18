@@ -129,5 +129,4 @@ privateKey=key            # 私鑰
   - 500 Server Error: 伺服器錯誤
 
 ## 系統架構
-
-系統包含前端、後端 API 服務和 MongoDB 資料庫三個主要組件。詳細架構和流程請參考專案中的架構圖（架構圖.drawio.png）和流程圖（流程圖.drawio.png）。
+![diagram](架構圖.drawio.png)
