@@ -129,4 +129,4 @@ privateKey=key            # 私鑰
   - 500 Server Error: 伺服器錯誤
 
 ## 系統架構
-![diagram]([架構圖.drawio.png](https://raw.githubusercontent.com/SonicNiJiaJia/studentHub/refs/heads/master/%E6%9E%B6%E6%A7%8B%E5%9C%96.png)?raw=true)
+![diagram](https://raw.githubusercontent.com/SonicNiJiaJia/studentHub/refs/heads/master/%E6%9E%B6%E6%A7%8B%E5%9C%96.png?raw=true)
