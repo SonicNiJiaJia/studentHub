@@ -130,3 +130,29 @@ privateKey=key            # 私鑰
 
 ## 系統架構
 ![diagram](https://raw.githubusercontent.com/SonicNiJiaJia/studentHub/refs/heads/master/%E6%9E%B6%E6%A7%8B%E5%9C%96.png?raw=true)
+
+## 流程圖
+用戶操作前端界面
+      ↓
+  前端處理
+ ┌──────────────────────────────────┐
+ │           新增學生               │ ──→ 發送 POST 請求到 /api/v1/user/insertOne
+ └──────────────────────────────────┘
+ │           查詢學生               │ ──→ 發送 GET 請求到 /api/v1/user/findByName 或是 /api/v1/user/findById
+ └──────────────────────────────────┘
+ │           更新學生               │ ──→ 發送 PUT 請求到 /api/v1/user/updateById 或是 /api/v1/user/updateByName
+ └──────────────────────────────────┘
+ │           刪除學生               │ ──→ 發送 DELETE 請求到 /api/v1/user/deleteByName 或是 /api/v1/user/deleteById
+ └──────────────────────────────────┘
+      ↓
+  後端路由匹配對應操作
+      ↓
+  控制器調用服務層實現業務邏輯
+      ↓
+  服務層與數據模型交互，完成 MongoDB 操作
+      ↓
+  資料庫操作 (插入、查詢、更新、刪除)
+      ↓
+  前端動態更新界面 (顯示操作結果)
+      ↓
+  結束
