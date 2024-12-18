@@ -12,14 +12,14 @@
 ### 前置作業
 ```bash
 # 下載專案
-git clone https://github.com/DanielTseng2004/studentHub.git
-cd studentHub
+git clone https://github.com/SonicNiJiaJia/studentHub.git
+cd good
 ```
 
 ### 前端設定
 ```bash
 # 進入前端目錄並安裝依賴
-cd front
+cd react-ts-mid-main
 npm i
 
 # 啟動開發伺服器
@@ -29,7 +29,7 @@ npm run dev
 ### 後端設定
 ```bash
 # 進入後端目錄並安裝依賴
-cd backDB
+cd mongoDemo-main
 npm i
 
 # 啟動後端伺服器
@@ -66,13 +66,13 @@ privateKey=key            # 私鑰
 ### 數據格式範例
 ```json
 {
-    "userName": "tkume2253",
+    "userName": "tkume6767",
     "sid": 4,
     "name": "***",
-    "department": "機械工程系",
-    "grade": "四年級",
+    "department": "日文系",
+    "grade": "三年級",
     "class": "B",
-    "email": "tkume2253@tkuim.com"
+    "email": "tkume6767@tkuim.com"
 }
 ```
 
